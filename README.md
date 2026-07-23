@@ -54,6 +54,14 @@ GitHub 아이디를 클릭하면 각자의 활동을 바로 확인할 수 있습
 | [@username](https://github.com/oojoyhh) | 0일 | 0일 | ⬜ |
 | [@username2](https://github.com/username2) | 0일 | 0일 | ⬜ |
 
+| 이름 | 잔디 |
+|:---:|:---|
+| 권예리 | <img src="https://ghchart.rshah.org/40c463/Yelli915" width="400"> |
+| 김효주 | <img src="https://ghchart.rshah.org/40c463/oojoyhh" width="400"> |
+| 박유진 | <img src="https://ghchart.rshah.org/40c463/youjin09222/" width="400"> |
+| 배민혁 | <img src="https://ghchart.rshah.org/40c463/bmh7190" width="400"> |
+| 인수연 | <img src="https://ghchart.rshah.org/40c463/1nyeonart/" width="400"> |
+| 한석휘 | <img src="https://ghchart.rshah.org/40c463/Smorgg/" width="400"> |
 ---
 
 <div align="center">
