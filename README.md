@@ -98,12 +98,12 @@
 ---
 
 ## 🏆 Record
-
+<!-- RECORD:START -->
 | 멤버 | 🔥 오늘의 1등 | 🏆 최장 기록 |
 | :---: | :---: | :---: |
 | [@username](https://github.com/oojoyhh) | 0일 | 0일 |
 | [@username2](https://github.com/username2) | 0일 | 0일 |
-
+<!-- RECORD:END -->
 ---
 
 ## 🏃 함께 달리는 사람들
