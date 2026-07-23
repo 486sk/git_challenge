@@ -55,19 +55,19 @@ const withProfiles = replaceBlock(
   "MEMBERS",
   renderProfiles(results),
 );
-const updated = replaceBlock(
+const withRanking = replaceBlock(
   withProfiles,
   "RANKING",
   renderRanking(results, now),
 );
 
-const updated = replaceBlock(
+const finalReadme = replaceBlock(
   withRanking,
   "RECORD",
   renderRecord(history, results),
 );
 
-await writeFile(README_PATH, fihalReadme);
+await writeFile(README_PATH, finalReadme);
 
 console.log(`${today} 잔디 순위를 갱신했습니다.`);
 
@@ -223,7 +223,6 @@ function renderRecord(history, users) {
 function renderRanking(users, updatedAt) {
   const max = Math.max(...users.map((user) => user.count));
   const best = users.filter((user) => user.count === max);
-  const everybodyTied = max === min;
 
   const bestText =
     max === 0
