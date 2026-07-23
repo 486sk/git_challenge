@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const README_PATH = "README.md";
+const HISTORY_PATH = "history.json";
 const MEMBERS_PATH = "members.json";
 const TOKEN = process.env.GITHUB_TOKEN;
 const TIME_ZONE = "Asia/Seoul";
@@ -44,6 +45,10 @@ results.sort(
     a.login.localeCompare(b.login, "en", { sensitivity: "base" }),
 );
 
+const history = await loadHistory();
+updateHistory(history, results, today, now);
+await writeFile(HISTORY_PATH, JSON.stringify(history, null, 2) + "\n");
+
 const readme = await readFile(README_PATH, "utf8");
 const withProfiles = replaceBlock(
   readme,
@@ -56,7 +61,14 @@ const updated = replaceBlock(
   renderRanking(results, now),
 );
 
-await writeFile(README_PATH, updated);
+const updated = replaceBlock(
+  withRanking,
+  "RECORD",
+  renderRecord(history, results),
+);
+
+await writeFile(README_PATH, fihalReadme);
+
 console.log(`${today} 잔디 순위를 갱신했습니다.`);
 
 async function getTodayContributions(login, rangeStart, rangeEnd) {
@@ -158,6 +170,54 @@ function renderProfiles(users) {
     "",
     "</div>",
   ].join("\n");
+}
+
+async function loadHistory() {
+  try {
+    return JSON.parse(await readFile(HISTORY_PATH, "utf8"));
+  } catch {
+    return {};
+  }
+}
+
+function updateHistory(history, users, today, now) {
+  const max = Math.max(...users.map((u) => u.count));
+  const bestLogins = max > 0 ? users.filter((u) => u.count === max).map((u) => u.login) : [];
+  const yesterday = getDateInTimeZone(new Date(now.getTime() - 86400000), TIME_ZONE);
+
+  for (const user of users) {
+    const entry = history[user.login] ?? { currentStreak: 0, longestStreak: 0, lastBestDate: null };
+
+    if (bestLogins.includes(user.login)) {
+      entry.currentStreak = entry.lastBestDate === yesterday ? entry.currentStreak + 1 : 1;
+      entry.lastBestDate = today;
+      entry.longestStreak = Math.max(entry.longestStreak, entry.currentStreak);
+    } else {
+      entry.currentStreak = 0;
+    }
+
+    history[user.login] = entry;
+  }
+}
+
+function renderRecord(history, users) {
+  const rows = users
+    .map((user) => ({ user, entry: history[user.login] ?? { currentStreak: 0, longestStreak: 0, lastBestDate: null } }))
+    .sort((a, b) =>
+      b.entry.currentStreak - a.entry.currentStreak ||
+      b.entry.longestStreak - a.entry.longestStreak ||
+      a.user.login.localeCompare(b.user.login, "en", { sensitivity: "base" }),
+    )
+    .map(({ user, entry }) => {
+      const todayCell =
+        entry.currentStreak > 0
+          ? `🔥 연속 ${entry.currentStreak}일<br><sub>${entry.lastBestDate}</sub>`
+          : "-";
+      return `| [@${user.login}](${user.url}) | ${todayCell} | 🏆 ${entry.longestStreak}일 |`;
+    })
+    .join("\n");
+
+  return ["| 멤버 | 🔥 오늘의 1등 | 🏆 최장기록 |", "| :---: | :---: | :---: |", rows].join("\n");
 }
 
 function renderRanking(users, updatedAt) {
