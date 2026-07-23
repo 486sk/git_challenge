@@ -56,81 +56,18 @@
 
 ---
 
-<!-- MEMBERS:START -->
-## 멤버 카드 (MEMBER CARDS)
+<!-- MEMBERS_GRAPHS:START -->
+## 👥 멤버 현황 & 잔디 차트 (MEMBERS & GRAPHS)
 
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <a href="https://github.com/oojoyhh">
-        <img src="https://github.com/oojoyhh.png?size=100" width="80" height="80" style="border-radius: 50%;"><br>
-        <b>김효주</b>
-      </a><br>
-      <sub>@oojoyhh</sub>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/Yelli915">
-        <img src="https://github.com/Yelli915.png?size=100" width="80" height="80" style="border-radius: 50%;"><br>
-        <b>권예리</b>
-      </a><br>
-      <sub>@Yelli915</sub>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/1nyeonart">
-        <img src="https://github.com/1nyeonart.png?size=100" width="80" height="80" style="border-radius: 50%;"><br>
-        <b>인수연</b>
-      </a><br>
-      <sub>@1nyeonart</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <a href="https://github.com/youjin09222">
-        <img src="https://github.com/youjin09222.png?size=100" width="80" height="80" style="border-radius: 50%;"><br>
-        <b>박유진</b>
-      </a><br>
-      <sub>@youjin09222</sub>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/Smorgg">
-        <img src="https://github.com/Smorgg.png?size=100" width="80" height="80" style="border-radius: 50%;"><br>
-        <b>한석휘</b>
-      </a><br>
-      <sub>@Smorgg</sub>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://github.com/bmh7190">
-        <img src="https://github.com/bmh7190.png?size=100" width="80" height="80" style="border-radius: 50%;"><br>
-        <b>배민혁</b>
-      </a><br>
-      <sub>@bmh7190</sub>
-    </td>
-  </tr>
-</table>
-
-</div>
-<!-- MEMBERS:END -->
-
----
-
-## 🏃 멤버별 잔디 그래프 (ACTIVITY GRAPHS)
-
-<details>
-<summary><b>🔍 전체 멤버 잔디 차트 펼치기 / 접기</b></summary>
-<br>
-
-| 멤버 | 잔디 그래프 |
-| :---: | :--- |
-| **권예리** | <img src="https://ghchart.rshah.org/40c463/Yelli915" width="450" alt="권예리 잔디"> |
-| **김효주** | <img src="https://ghchart.rshah.org/40c463/oojoyhh" width="450" alt="김효주 잔디"> |
-| **박유진** | <img src="https://ghchart.rshah.org/40c463/youjin09222" width="450" alt="박유진 잔디"> |
-| **배민혁** | <img src="https://ghchart.rshah.org/40c463/bmh7190" width="450" alt="배민혁 잔디"> |
-| **인수연** | <img src="https://ghchart.rshah.org/40c463/1nyeonart" width="450" alt="인수연 잔디"> |
-| **한석휘** | <img src="https://ghchart.rshah.org/40c463/Smorgg" width="450" alt="한석휘 잔디"> |
-
-</details>
+| 프로필 | 멤버 | 잔디 그래프 |
+| :---: | :--- | :--- |
+| <a href="https://github.com/oojoyhh"><img src="https://github.com/oojoyhh.png?size=80" width="50" height="50" style="border-radius: 50%;" alt="김효주"></a> | **김효주**<br><sub>[@oojoyhh](https://github.com/oojoyhh)</sub> | <img src="https://ghchart.rshah.org/40c463/oojoyhh" width="420" alt="김효주 잔디"> |
+| <a href="https://github.com/Yelli915"><img src="https://github.com/Yelli915.png?size=80" width="50" height="50" style="border-radius: 50%;" alt="권예리"></a> | **권예리**<br><sub>[@Yelli915](https://github.com/Yelli915)</sub> | <img src="https://ghchart.rshah.org/40c463/Yelli915" width="420" alt="권예리 잔디"> |
+| <a href="https://github.com/1nyeonart"><img src="https://github.com/1nyeonart.png?size=80" width="50" height="50" style="border-radius: 50%;" alt="인수연"></a> | **인수연**<br><sub>[@1nyeonart](https://github.com/1nyeonart)</sub> | <img src="https://ghchart.rshah.org/40c463/1nyeonart" width="420" alt="인수연 잔디"> |
+| <a href="https://github.com/youjin09222"><img src="https://github.com/youjin09222.png?size=80" width="50" height="50" style="border-radius: 50%;" alt="박유진"></a> | **박유진**<br><sub>[@youjin09222](https://github.com/youjin09222)</sub> | <img src="https://ghchart.rshah.org/40c463/youjin09222" width="420" alt="박유진 잔디"> |
+| <a href="https://github.com/Smorgg"><img src="https://github.com/Smorgg.png?size=80" width="50" height="50" style="border-radius: 50%;" alt="한석휘"></a> | **한석휘**<br><sub>[@Smorgg](https://github.com/Smorgg)</sub> | <img src="https://ghchart.rshah.org/40c463/Smorgg" width="420" alt="한석휘 잔디"> |
+| <a href="https://github.com/bmh7190"><img src="https://github.com/bmh7190.png?size=80" width="50" height="50" style="border-radius: 50%;" alt="배민혁"></a> | **배민혁**<br><sub>[@bmh7190](https://github.com/bmh7190)</sub> | <img src="https://ghchart.rshah.org/40c463/bmh7190" width="420" alt="배민혁 잔디"> |
+<!-- MEMBERS_GRAPHS:END -->
 
 ---
 
