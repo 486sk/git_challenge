@@ -72,12 +72,12 @@
 ---
 
 <!-- RANKING:START -->
+## 🏁 오늘의 BEST / WORST
 
-## 🏁 오늘의 BEST
 
 | 🏆 TODAY'S BEST |
 | :---: |
-| [@oojoyhh](https://github.com/oojoyhh) · **13개** |
+| [@oojoyhh](https://github.com/oojoyhh) · **19개** |
 
 </div>
 
@@ -85,24 +85,28 @@
 
 | 순위 | 멤버 | 오늘의 잔디 | 상태 |
 | :---: | :---: | :---: | :---: |
-| 🥇 | [@oojoyhh](https://github.com/oojoyhh) | **13** | 🔥 불타는 중 |
+| 🥇 | [@oojoyhh](https://github.com/oojoyhh) | **19** | 🔥 불타는 중 |
 | 🥈 | [@Yelli915](https://github.com/Yelli915) | **10** | 🔥 불타는 중 |
 | 🥉 | [@1nyeonart](https://github.com/1nyeonart) | **9** | 🔥 불타는 중 |
 | 4 | [@youjin09222](https://github.com/youjin09222) | **8** | 🔥 불타는 중 |
-| 5 | [@Smorgg](https://github.com/Smorgg) | **2** | 🌱 시작 |
+| 5 | [@Smorgg](https://github.com/Smorgg) | **4** | 🌿 성장 중 |
 | 6 | [@bmh7190](https://github.com/bmh7190) | **0** | 🌑 아직 |
 
-<sub>마지막 집계: 2026년 7월 23일 목 13:57 (KST) · GitHub contribution 기준</sub>
+<sub>마지막 집계: 2026년 7월 23일 목 15:09 (KST) · GitHub contribution 기준</sub>
 <!-- RANKING:END -->
 
 ---
 
 ## 🏆 Record
 <!-- RECORD:START -->
-| 멤버 | 🔥 오늘의 1등 | 🏆 최장 기록 |
+| 멤버 | 🔥 오늘의 1등 | 🏆 최장기록 |
 | :---: | :---: | :---: |
-| [@username](https://github.com/oojoyhh) | 0일 | 0일 |
-| [@username2](https://github.com/username2) | 0일 | 0일 |
+| [@oojoyhh](https://github.com/oojoyhh) | 🔥 연속 1일<br><sub>2026-07-23</sub> | 🏆 1일 |
+| [@1nyeonart](https://github.com/1nyeonart) | - | 🏆 0일 |
+| [@bmh7190](https://github.com/bmh7190) | - | 🏆 0일 |
+| [@Smorgg](https://github.com/Smorgg) | - | 🏆 0일 |
+| [@Yelli915](https://github.com/Yelli915) | - | 🏆 0일 |
+| [@youjin09222](https://github.com/youjin09222) | - | 🏆 0일 |
 <!-- RECORD:END -->
 ---
 
