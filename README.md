@@ -57,7 +57,7 @@
 ---
 
 <!-- MEMBERS:START -->
-## 👥 대시보드 멤버 카드 (MEMBER CARDS)
+## 멤버 카드 (MEMBER CARDS)
 
 <div align="center">
 
