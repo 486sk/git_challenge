@@ -37,13 +37,13 @@ jobs:
 
       - name: README 갱신 내용 저장
         run: |
-          if git diff --quiet -- profile/README.md; then
+          if git diff --quiet -- README.md; then
             echo "변경된 순위가 없습니다."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/README.md
+          git add README.md
           git commit -m "chore: 오늘의 잔디 순위 갱신"
           git push

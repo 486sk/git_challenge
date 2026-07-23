@@ -1,6 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 
-const README_PATH = "profile/README.md";
+const README_PATH = "README.md";
 const MEMBERS_PATH = "members.json";
 const TOKEN = process.env.GITHUB_TOKEN;
 const TIME_ZONE = "Asia/Seoul";
