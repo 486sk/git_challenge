@@ -13,7 +13,60 @@
 
 ## 🌱 우리의 약속
 <!-- MEMBERS:START -->
-> `members.json`에 멤버들의 GitHub 아이디를 입력하면 프로필이 여기에 표시됩니다.
+<div align="center">
+
+## 👥 오늘도 함께 심는 사람들
+
+<table>
+<tr>
+<td align="center" width="150">
+  <a href="https://github.com/oojoyhh">
+    <img src="https://github.com/oojoyhh.png?size=110" width="90" height="90" alt="oojoyhh 프로필 사진"><br>
+    <b>@oojoyhh</b>
+  </a><br>
+  <sub>@oojoyhh</sub>
+</td>
+<td align="center" width="150">
+  <a href="https://github.com/Yelli915">
+    <img src="https://github.com/Yelli915.png?size=110" width="90" height="90" alt="Yelli915 프로필 사진"><br>
+    <b>@Yelli915</b>
+  </a><br>
+  <sub>Kwon Yeri</sub>
+</td>
+<td align="center" width="150">
+  <a href="https://github.com/1nyeonart">
+    <img src="https://github.com/1nyeonart.png?size=110" width="90" height="90" alt="1nyeonart 프로필 사진"><br>
+    <b>@1nyeonart</b>
+  </a><br>
+  <sub>1nsuyeon</sub>
+</td>
+<td align="center" width="150">
+  <a href="https://github.com/youjin09222">
+    <img src="https://github.com/youjin09222.png?size=110" width="90" height="90" alt="youjin09222 프로필 사진"><br>
+    <b>@youjin09222</b>
+  </a><br>
+  <sub>@youjin09222</sub>
+</td>
+<td align="center" width="150">
+  <a href="https://github.com/Smorgg">
+    <img src="https://github.com/Smorgg.png?size=110" width="90" height="90" alt="Smorgg 프로필 사진"><br>
+    <b>@Smorgg</b>
+  </a><br>
+  <sub>@Smorgg</sub>
+</td>
+</tr>
+<tr>
+<td align="center" width="150">
+  <a href="https://github.com/bmh7190">
+    <img src="https://github.com/bmh7190.png?size=110" width="90" height="90" alt="bmh7190 프로필 사진"><br>
+    <b>@bmh7190</b>
+  </a><br>
+  <sub>배민혁</sub>
+</td>
+</tr>
+</table>
+
+</div>
 <!-- MEMBERS:END -->
 
 1. **작아도 매일 남긴다.** 크기보다 꾸준함을 우선합니다.
@@ -24,16 +77,28 @@
 
 ## 📍 오늘의 기록
 <!-- RANKING:START -->
-## 🏁 오늘의 결과
+## 🏁 오늘의 BEST / WORST
 
-<!--
-매일 아래 표의 맨 위에 한 줄을 추가하세요.
-PR 또는 커밋 링크를 넣으면 무엇을 했는지 다시 보기 좋습니다.
-BEST: 오늘 잘한 점 / 새롭게 배운 점
-WORST: 막힌 점 / 아쉬웠던 점
-NEXT: 내일 10분 안에 시작할 수 있는 가장 작은 행동
--->
-아직 집계 전입니다. GitHub Actions의 `Update daily grass ranking`을 실행해 주세요.
+<div align="center">
+
+| 🏆 TODAY'S BEST | 🚨 TODAY'S WORST |
+| :---: | :---: |
+| [@oojoyhh](https://github.com/oojoyhh) · **13개** | [@bmh7190](https://github.com/bmh7190) · **0개** |
+
+</div>
+
+### 🟩 2026년 7월 23일 목 잔디 순위
+
+| 순위 | 멤버 | 오늘의 잔디 | 상태 |
+| :---: | :---: | :---: | :---: |
+| 🥇 | [@oojoyhh](https://github.com/oojoyhh) | **13** | 🔥 불타는 중 |
+| 🥈 | [@Yelli915](https://github.com/Yelli915) | **10** | 🔥 불타는 중 |
+| 🥉 | [@1nyeonart](https://github.com/1nyeonart) | **9** | 🔥 불타는 중 |
+| 4 | [@youjin09222](https://github.com/youjin09222) | **8** | 🔥 불타는 중 |
+| 5 | [@Smorgg](https://github.com/Smorgg) | **2** | 🌱 시작 |
+| 6 | [@bmh7190](https://github.com/bmh7190) | **0** | 🌑 아직 |
+
+<sub>마지막 집계: 2026년 7월 23일 목 13:57 (KST) · GitHub contribution 기준</sub>
 <!-- RANKING:END -->
 
 | 날짜 | 이름 | 오늘의 커밋 | 🌟 BEST | 🌧️ WORST |
