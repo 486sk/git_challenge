@@ -1,0 +1,49 @@
+name: Update daily grass ranking
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7 0 * * *"
+      timezone: "Asia/Seoul"
+    - cron: "17 7-23/2 * * *"
+      timezone: "Asia/Seoul"
+    - cron: "50 23 * * *"
+      timezone: "Asia/Seoul"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-daily-grass-ranking
+  cancel-in-progress: true
+
+jobs:
+  update-ranking:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 저장소 가져오기
+        uses: actions/checkout@v4
+
+      - name: Node.js 준비
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 오늘의 잔디 집계
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-ranking.mjs
+
+      - name: README 갱신 내용 저장
+        run: |
+          if git diff --quiet -- profile/README.md; then
+            echo "변경된 순위가 없습니다."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "chore: 오늘의 잔디 순위 갱신"
+          git push
