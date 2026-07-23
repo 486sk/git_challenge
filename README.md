@@ -16,13 +16,9 @@
 <!-- RANKING:START -->
 ## 🥇 TODAY'S HIGHLIGHTS
 
-<div align="center">
-
 | 🏆 오늘의 커밋 왕 (TOP CONTRIBUTOR) |
-| :---: |
+| :--- |
 | 👑 **[@oojoyhh](https://github.com/oojoyhh)** · **19 Commits** |
-
-</div>
 
 <br>
 
@@ -59,14 +55,101 @@
 <!-- MEMBERS_GRAPHS:START -->
 ## 👥 멤버 현황 & 잔디 차트 (MEMBERS & GRAPHS)
 
-| 프로필 | 멤버 | 잔디 그래프 |
-| :---: | :--- | :--- |
-| <a href="https://github.com/oojoyhh"><img src="https://github.com/oojoyhh.png?size=80" width="50" height="50" style="border-radius: 50%;" alt="김효주"></a> | **김효주**<br><sub>[@oojoyhh](https://github.com/oojoyhh)</sub> | <img src="https://ghchart.rshah.org/40c463/oojoyhh" width="420" alt="김효주 잔디"> |
-| <a href="https://github.com/Yelli915"><img src="https://github.com/Yelli915.png?size=80" width="50" height="50" style="border-radius: 50%;" alt="권예리"></a> | **권예리**<br><sub>[@Yelli915](https://github.com/Yelli915)</sub> | <img src="https://ghchart.rshah.org/40c463/Yelli915" width="420" alt="권예리 잔디"> |
-| <a href="https://github.com/1nyeonart"><img src="https://github.com/1nyeonart.png?size=80" width="50" height="50" style="border-radius: 50%;" alt="인수연"></a> | **인수연**<br><sub>[@1nyeonart](https://github.com/1nyeonart)</sub> | <img src="https://ghchart.rshah.org/40c463/1nyeonart" width="420" alt="인수연 잔디"> |
-| <a href="https://github.com/youjin09222"><img src="https://github.com/youjin09222.png?size=80" width="50" height="50" style="border-radius: 50%;" alt="박유진"></a> | **박유진**<br><sub>[@youjin09222](https://github.com/youjin09222)</sub> | <img src="https://ghchart.rshah.org/40c463/youjin09222" width="420" alt="박유진 잔디"> |
-| <a href="https://github.com/Smorgg"><img src="https://github.com/Smorgg.png?size=80" width="50" height="50" style="border-radius: 50%;" alt="한석휘"></a> | **한석휘**<br><sub>[@Smorgg](https://github.com/Smorgg)</sub> | <img src="https://ghchart.rshah.org/40c463/Smorgg" width="420" alt="한석휘 잔디"> |
-| <a href="https://github.com/bmh7190"><img src="https://github.com/bmh7190.png?size=80" width="50" height="50" style="border-radius: 50%;" alt="배민혁"></a> | **배민혁**<br><sub>[@bmh7190](https://github.com/bmh7190)</sub> | <img src="https://ghchart.rshah.org/40c463/bmh7190" width="420" alt="배민혁 잔디"> |
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="center" width="12%">프로필</th>
+      <th align="center" width="18%">멤버</th>
+      <th align="left" width="70%">잔디 그래프</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/oojoyhh">
+          <img src="https://github.com/oojoyhh.png?size=120" width="100%" style="border-radius: 50%; display: block;" alt="김효주">
+        </a>
+      </td>
+      <td align="center">
+        <b>김효주</b><br>
+        <sub><a href="https://github.com/oojoyhh">@oojoyhh</a></sub>
+      </td>
+      <td>
+        <img src="https://ghchart.rshah.org/40c463/oojoyhh" width="100%" alt="김효주 잔디">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/Yelli915">
+          <img src="https://github.com/Yelli915.png?size=120" width="100%" style="border-radius: 50%; display: block;" alt="권예리">
+        </a>
+      </td>
+      <td align="center">
+        <b>권예리</b><br>
+        <sub><a href="https://github.com/Yelli915">@Yelli915</a></sub>
+      </td>
+      <td>
+        <img src="https://ghchart.rshah.org/40c463/Yelli915" width="100%" alt="권예리 잔디">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/1nyeonart">
+          <img src="https://github.com/1nyeonart.png?size=120" width="100%" style="border-radius: 50%; display: block;" alt="인수연">
+        </a>
+      </td>
+      <td align="center">
+        <b>인수연</b><br>
+        <sub><a href="https://github.com/1nyeonart">@1nyeonart</a></sub>
+      </td>
+      <td>
+        <img src="https://ghchart.rshah.org/40c463/1nyeonart" width="100%" alt="인수연 잔디">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/youjin09222">
+          <img src="https://github.com/youjin09222.png?size=120" width="100%" style="border-radius: 50%; display: block;" alt="박유진">
+        </a>
+      </td>
+      <td align="center">
+        <b>박유진</b><br>
+        <sub><a href="https://github.com/youjin09222">@youjin09222</a></sub>
+      </td>
+      <td>
+        <img src="https://ghchart.rshah.org/40c463/youjin09222" width="100%" alt="박유진 잔디">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/Smorgg">
+          <img src="https://github.com/Smorgg.png?size=120" width="100%" style="border-radius: 50%; display: block;" alt="한석휘">
+        </a>
+      </td>
+      <td align="center">
+        <b>한석휘</b><br>
+        <sub><a href="https://github.com/Smorgg">@Smorgg</a></sub>
+      </td>
+      <td>
+        <img src="https://ghchart.rshah.org/40c463/Smorgg" width="100%" alt="한석휘 잔디">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/bmh7190">
+          <img src="https://github.com/bmh7190.png?size=120" width="100%" style="border-radius: 50%; display: block;" alt="배민혁">
+        </a>
+      </td>
+      <td align="center">
+        <b>배민혁</b><br>
+        <sub><a href="https://github.com/bmh7190">@bmh7190</a></sub>
+      </td>
+      <td>
+        <img src="https://ghchart.rshah.org/40c463/bmh7190" width="100%" alt="배민혁 잔디">
+      </td>
+    </tr>
+  </tbody>
+</table>
 <!-- MEMBERS_GRAPHS:END -->
 
 ---
