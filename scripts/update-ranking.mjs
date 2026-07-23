@@ -150,7 +150,7 @@ function renderProfiles(users) {
   return [
     '<div align="center">',
     "",
-    "## 👥 오늘도 함께 심는 사람들",
+    "## 👥 Profile",
     "",
     "<table>",
     rows.join("\n"),
@@ -162,21 +162,14 @@ function renderProfiles(users) {
 
 function renderRanking(users, updatedAt) {
   const max = Math.max(...users.map((user) => user.count));
-  const min = Math.min(...users.map((user) => user.count));
   const best = users.filter((user) => user.count === max);
-  const worst = users.filter((user) => user.count === min);
   const everybodyTied = max === min;
 
   const bestText =
     max === 0
       ? "아직 없음"
       : `${renderUserLinks(best)} · **${max}개**`;
-  const worstText = everybodyTied
-    ? max === 0
-      ? `${renderUserLinks(worst)} · **0개**`
-      : "없음 · 모두 같은 수의 잔디를 심었습니다"
-    : `${renderUserLinks(worst)} · **${min}개**`;
-
+  
   const tableRows = users
     .map((user, index) => {
       const medal = ["🥇", "🥈", "🥉"][index] ?? `${index + 1}`;
@@ -199,11 +192,10 @@ function renderRanking(users, updatedAt) {
   return [
     "## 🏁 오늘의 BEST / WORST",
     "",
-    `<div align="center">`,
     "",
-    "| 🏆 TODAY'S BEST | 🚨 TODAY'S WORST |",
-    "| :---: | :---: |",
-    `| ${bestText} | ${worstText} |`,
+    "| 🏆 TODAY'S BEST |",
+    "| :---: |",
+    `| ${bestText} |`,
     "",
     "</div>",
     "",
