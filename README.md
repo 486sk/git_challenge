@@ -28,14 +28,14 @@
 
 ### 📈 오늘의 실시간 순위표 (LIVE RANKING)
 
-| 순위 | 상태 | 멤버 | 오늘 심은 잔디 | 달성도 |
-| :---: | :---: | :--- | :---: | :--- |
-| **🥇 1st** | 🔥 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `19개` | `████████████████████` |
-| **🥈 2nd** | 🔥 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `10개` | `██████████░░░░░░░░░░` |
-| **🥉 3rd** | 🔥 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `9개` | `█████████░░░░░░░░░░░` |
-| **4th** | 🔥 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `8개` | `████████░░░░░░░░░░░░` |
-| **5th** | 🌿 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `4개` | `████░░░░░░░░░░░░░░░░` |
-| **6th** | 🌑 | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `0개` | `░░░░░░░░░░░░░░░░░░░░` |
+| 순위 | 상태 | 멤버 | 커밋 수 | 코드 변화량 (+/-) | 달성도 |
+| :---: | :---: | :--- | :---: | :---: | :--- |
+| **🥇 1st** | 🔥 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `19개` | <font color="#2da44e">**+450**</font> / <font color="#cf222e">**-120**</font> | `████████████████████` |
+| **🥈 2nd** | 🔥 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `10개` | <font color="#2da44e">**+230**</font> / <font color="#cf222e">**-45**</font> | `██████████░░░░░░░░░░` |
+| **🥉 3rd** | 🔥 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `9개` | <font color="#2da44e">**+180**</font> / <font color="#cf222e">**-30**</font> | `█████████░░░░░░░░░░░` |
+| **4th** | 🔥 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `8개` | <font color="#2da44e">**+150**</font> / <font color="#cf222e">**-10**</font> | `████████░░░░░░░░░░░░` |
+| **5th** | 🌿 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `4개` | <font color="#2da44e">**+60**</font> / <font color="#cf222e">**-5**</font> | `████░░░░░░░░░░░░░░░░` |
+| **6th** | 🌑 | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
 
 <!-- RANKING:END -->
 
