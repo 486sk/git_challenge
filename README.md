@@ -3,7 +3,7 @@
 # 📊 1일 1커밋 챌린지 대시보드
 ### ⚡ DAILY GRASS DASHBOARD
 
-![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--07--24_15:05_KST-success?style=for-the-badge&logo=github)
+![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--07--24_15:10_KST-success?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/CHALLENGE-IN_PROGRESS-orange?style=for-the-badge&logo=target)
 
 > **"오늘 잔디, 오늘 심자. 🌱"**  
@@ -18,7 +18,7 @@
 
 | 🏆 오늘의 커밋 왕 (TOP CONTRIBUTOR) |
 | :--- |
-| 👑 **[@Yelli915](https://github.com/Yelli915)** · **10 Commits** |
+| 👑 **[@Yelli915](https://github.com/Yelli915)** · **14 Commits** |
 
 <br>
 
@@ -26,11 +26,11 @@
 
 | 순위 | 상태 | 멤버 | 커밋 수 | 코드 변화량 (+/-) | 달성도 |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| **🥇 1st** | 🔥 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `10개` | <font color="#2da44e">**+250**</font> / <font color="#cf222e">**-50**</font> | `████████████████████` |
-| **🥈 2nd** | 🔥 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `6개` | <font color="#2da44e">**+150**</font> / <font color="#cf222e">**-30**</font> | `████████████░░░░░░░░` |
-| **🥉 3rd** | 🔥 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `5개` | <font color="#2da44e">**+125**</font> / <font color="#cf222e">**-25**</font> | `██████████░░░░░░░░░░` |
-| **4th** | 🌿 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `3개` | <font color="#2da44e">**+75**</font> / <font color="#cf222e">**-15**</font> | `██████░░░░░░░░░░░░░░` |
-| **5th** | 🌿 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `1개` | <font color="#2da44e">**+25**</font> / <font color="#cf222e">**-5**</font> | `██░░░░░░░░░░░░░░░░░░` |
+| **🥇 1st** | 🔥 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `14개` | <font color="#2da44e">**+350**</font> / <font color="#cf222e">**-70**</font> | `████████████████████` |
+| **🥈 2nd** | 🔥 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `10개` | <font color="#2da44e">**+250**</font> / <font color="#cf222e">**-50**</font> | `██████████████░░░░░░` |
+| **🥉 3rd** | 🔥 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `8개` | <font color="#2da44e">**+200**</font> / <font color="#cf222e">**-40**</font> | `███████████░░░░░░░░░` |
+| **4th** | 🌿 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `4개` | <font color="#2da44e">**+100**</font> / <font color="#cf222e">**-20**</font> | `█████░░░░░░░░░░░░░░░` |
+| **5th** | 🌿 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `4개` | <font color="#2da44e">**+100**</font> / <font color="#cf222e">**-20**</font> | `█████░░░░░░░░░░░░░░░` |
 | **6th** | 🌑 | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `0개` | <font color="#2da44e">**+0**</font> / <font color="#cf222e">**-0**</font> | `░░░░░░░░░░░░░░░░░░░░` |
 <!-- RANKING:END -->
 
