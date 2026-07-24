@@ -1,0 +1,336 @@
+import { readFile, writeFile } from "node:fs/promises";
+
+const README_PATH = "README.md";
+const HISTORY_PATH = "history.json";
+const MEMBERS_PATH = "members.json";
+const TOKEN = process.env.GITHUB_TOKEN;
+const TIME_ZONE = "Asia/Seoul";
+const USERNAME_PATTERN = /^[a-z\d](?:[a-z\d]|-(?=[a-z\d])){0,38}$/i;
+
+if (!TOKEN) {
+  throw new Error("GITHUB_TOKEN이 없습니다.");
+}
+
+const config = JSON.parse(await readFile(MEMBERS_PATH, "utf8"));
+const members = [...new Set(config.members ?? [])];
+
+if (members.length === 0) {
+  throw new Error("members.json에 GitHub 아이디를 한 명 이상 입력해 주세요.");
+}
+
+for (const login of members) {
+  if (
+    !USERNAME_PATTERN.test(login) ||
+    login === "YOUR_GITHUB_ID" ||
+    login === "FRIEND_GITHUB_ID"
+  ) {
+    throw new Error(`members.json의 '${login}'을 실제 GitHub 아이디로 바꿔 주세요.`);
+  }
+}
+
+const now = new Date();
+const today = getDateInTimeZone(now, TIME_ZONE);
+const from = `${today}T00:00:00+09:00`;
+const to = now.toISOString();
+
+const results = [];
+
+for (const login of members) {
+  results.push(await getTodayContributions(login, from, to));
+}
+
+results.sort(
+  (a, b) =>
+    b.count - a.count ||
+    a.login.localeCompare(b.login, "en", { sensitivity: "base" }),
+);
+
+const history = await loadHistory();
+updateHistory(history, results, today, now);
+await writeFile(HISTORY_PATH, JSON.stringify(history, null, 2) + "\n");
+
+const readme = await readFile(README_PATH, "utf8");
+const withProfiles = replaceBlock(
+  readme,
+  "MEMBERS",
+  renderProfiles(results),
+);
+const withRanking = replaceBlock(
+  withProfiles,
+  "RANKING",
+  renderRanking(results, now),
+);
+
+const finalReadme = replaceBlock(
+  withRanking,
+  "RECORD",
+  renderRecord(history, results),
+);
+
+await writeFile(README_PATH, finalReadme);
+
+console.log(`${today} 잔디 순위를 갱신했습니다.`);
+
+async function getTodayContributions(login, rangeStart, rangeEnd) {
+  const query = `
+    query DailyContributions(
+      $login: String!
+      $from: DateTime!
+      $to: DateTime!
+    ) {
+      user(login: $login) {
+        login
+        name
+        url
+        contributionsCollection(from: $from, to: $to) {
+          contributionCalendar {
+            totalContributions
+          }
+        }
+      }
+    }
+  `;
+
+  const response = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: {
+      Accept: "application/vnd.github+json",
+      Authorization: `Bearer ${TOKEN}`,
+      "Content-Type": "application/json",
+      "User-Agent": "daily-grass-challenge",
+      "X-GitHub-Api-Version": "2022-11-28",
+    },
+    body: JSON.stringify({
+      query,
+      variables: {
+        login,
+        from: rangeStart,
+        to: rangeEnd,
+      },
+    }),
+  });
+
+  if (!response.ok) {
+    throw new Error(
+      `${login} 조회 실패: GitHub API가 ${response.status}를 반환했습니다.`,
+    );
+  }
+
+  const body = await response.json();
+
+  if (body.errors?.length) {
+    throw new Error(`${login} 조회 실패: ${body.errors[0].message}`);
+  }
+
+  if (!body.data.user) {
+    throw new Error(`GitHub 사용자 '${login}'을 찾을 수 없습니다.`);
+  }
+
+  const user = body.data.user;
+
+  return {
+    login: user.login,
+    name: user.name,
+    url: user.url,
+    count:
+      user.contributionsCollection.contributionCalendar.totalContributions,
+  };
+}
+
+function renderProfiles(users) {
+  const rows = [];
+
+  for (let index = 0; index < users.length; index += 5) {
+    const cells = users.slice(index, index + 5).map((user) => {
+      const login = escapeHtml(user.login);
+      const name = user.name ? escapeHtml(user.name) : `@${login}`;
+
+      return [
+        '<td align="center" width="150">',
+        `  <a href="${user.url}">`,
+        `    <img src="https://github.com/${login}.png?size=110" width="90" height="90" alt="${login} 프로필 사진"><br>`,
+        `    <b>@${login}</b>`,
+        "  </a><br>",
+        `  <sub>${name}</sub>`,
+        "</td>",
+      ].join("\n");
+    });
+
+    rows.push(`<tr>\n${cells.join("\n")}\n</tr>`);
+  }
+
+  return [
+    '<div align="center">',
+    "",
+    "## 👥 Profile",
+    "",
+    "<table>",
+    rows.join("\n"),
+    "</table>",
+    "",
+    "</div>",
+  ].join("\n");
+}
+
+async function loadHistory() {
+  try {
+    return JSON.parse(await readFile(HISTORY_PATH, "utf8"));
+  } catch {
+    return {};
+  }
+}
+
+function updateHistory(history, users, today, now) {
+  const max = Math.max(...users.map((u) => u.count));
+  const bestLogins = max > 0 ? users.filter((u) => u.count === max).map((u) => u.login) : [];
+  const yesterday = getDateInTimeZone(new Date(now.getTime() - 86400000), TIME_ZONE);
+
+  for (const user of users) {
+    const entry = history[user.login] ?? { currentStreak: 0, longestStreak: 0, lastBestDate: null };
+
+    if (bestLogins.includes(user.login)) {
+      entry.currentStreak = entry.lastBestDate === yesterday ? entry.currentStreak + 1 : 1;
+      entry.lastBestDate = today;
+      entry.longestStreak = Math.max(entry.longestStreak, entry.currentStreak);
+    } else {
+      entry.currentStreak = 0;
+    }
+
+    history[user.login] = entry;
+  }
+}
+
+function renderRecord(history, users) {
+  const rows = users
+    .map((user) => ({ user, entry: history[user.login] ?? { currentStreak: 0, longestStreak: 0, lastBestDate: null } }))
+    .sort((a, b) =>
+      b.entry.currentStreak - a.entry.currentStreak ||
+      b.entry.longestStreak - a.entry.longestStreak ||
+      a.user.login.localeCompare(b.user.login, "en", { sensitivity: "base" }),
+    )
+    .map(({ user, entry }) => {
+      const todayCell =
+        entry.currentStreak > 0
+          ? `🔥 연속 ${entry.currentStreak}일<br><sub>${entry.lastBestDate}</sub>`
+          : "-";
+      return `| [@${user.login}](${user.url}) | ${todayCell} | 🏆 ${entry.longestStreak}일 |`;
+    })
+    .join("\n");
+
+  return ["| 멤버 | 🔥 오늘의 1등 | 🏆 최장기록 |", "| :---: | :---: | :---: |", rows].join("\n");
+}
+
+function renderRanking(users, updatedAt) {
+  const max = Math.max(...users.map((user) => user.count));
+  const best = users.filter((user) => user.count === max);
+
+  const bestText =
+    max === 0
+      ? "아직 없음"
+      : `${renderUserLinks(best)} · **${max}개**`;
+  
+  const tableRows = users
+    .map((user, index) => {
+      const medal = ["🥇", "🥈", "🥉"][index] ?? `${index + 1}`;
+      const status =
+        user.count === 0
+          ? "🌑 아직"
+          : user.count <= 2
+            ? "🌱 시작"
+            : user.count <= 5
+              ? "🌿 성장 중"
+              : "🔥 불타는 중";
+
+      return `| ${medal} | [@${user.login}](${user.url}) | **${user.count}** | ${status} |`;
+    })
+    .join("\n");
+
+  const dateText = formatKoreanDate(updatedAt);
+  const timeText = formatKoreanTime(updatedAt);
+
+  return [
+    "## 🏁 오늘의 BEST / WORST",
+    "",
+    "",
+    "| 🏆 TODAY'S BEST |",
+    "| :---: |",
+    `| ${bestText} |`,
+    "",
+    "</div>",
+    "",
+    `### 🟩 ${dateText} 잔디 순위`,
+    "",
+    "| 순위 | 멤버 | 오늘의 잔디 | 상태 |",
+    "| :---: | :---: | :---: | :---: |",
+    tableRows,
+    "",
+    `<sub>마지막 집계: ${dateText} ${timeText} (KST) · GitHub contribution 기준</sub>`,
+  ].join("\n");
+}
+
+function renderUserLinks(users) {
+  return users.map((user) => `[@${user.login}](${user.url})`).join(", ");
+}
+
+function replaceBlock(source, name, content) {
+  const start = `<!-- ${name}:START -->`;
+  const end = `<!-- ${name}:END -->`;
+  const pattern = new RegExp(
+    `${escapeRegExp(start)}[\\s\\S]*?${escapeRegExp(end)}`,
+  );
+
+  if (!pattern.test(source)) {
+    throw new Error(`README에서 ${name} 자동 생성 영역을 찾지 못했습니다.`);
+  }
+
+  return source.replace(pattern, `${start}\n${content}\n${end}`);
+}
+
+function getDateInTimeZone(date, timeZone) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(date);
+  const values = Object.fromEntries(
+    parts.filter((part) => part.type !== "literal").map((part) => [
+      part.type,
+      part.value,
+    ]),
+  );
+
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+function formatKoreanDate(date) {
+  return new Intl.DateTimeFormat("ko-KR", {
+    timeZone: TIME_ZONE,
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    weekday: "short",
+  }).format(date);
+}
+
+function formatKoreanTime(date) {
+  return new Intl.DateTimeFormat("ko-KR", {
+    timeZone: TIME_ZONE,
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).format(date);
+}
+
+function escapeHtml(value) {
+  return value
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
