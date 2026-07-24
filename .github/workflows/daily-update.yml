@@ -2,15 +2,16 @@ name: Update Daily Commit Dashboard
 
 on:
   schedule:
-    # 매 시간 0분마다 자동 실행
     - cron: '0 * * * *'
-  workflow_dispatch: # Actions 탭에서 버튼 눌러 수동 실행 가능
+  workflow_dispatch:
 
 jobs:
   update-dashboard:
     runs-on: ubuntu-latest
+    
+    # ⬇️ 아래 permissions 설정을 추가하면 UI에서 선택하지 못해도 권한이 부여됩니다!
     permissions:
-      contents: write  # README.md 커밋 및 푸시를 위한 권한
+      contents: write
 
     steps:
       - name: Checkout Repository
