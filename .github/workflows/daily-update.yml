@@ -2,13 +2,16 @@ name: Update Daily Commit Dashboard
 
 on:
   schedule:
-    # 매 시간 0분마다 자동 실행 (UTC 기준)
+    # 매 시간 0분마다 자동 실행
     - cron: '0 * * * *'
-  workflow_dispatch: # 버튼 눌러서 수동 실행 가능
+  workflow_dispatch: # Actions 탭에서 버튼 눌러 수동 실행 가능
 
 jobs:
   update-dashboard:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # README.md 커밋 및 푸시를 위한 권한
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -26,6 +29,7 @@ jobs:
       - name: Run Dashboard Generator
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TZ: "Asia/Seoul"
         run: python update_dashboard.py
 
       - name: Commit and Push changes
