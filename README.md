@@ -3,7 +3,7 @@
 # 📊 1일 1커밋 챌린지 대시보드
 ### ⚡ DAILY GRASS DASHBOARD
 
-![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--07--24_15:22_KST-success?style=for-the-badge&logo=github)
+![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--07--24_16:27_KST-success?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/CHALLENGE-IN_PROGRESS-orange?style=for-the-badge&logo=target)
 
 > **"오늘 잔디, 오늘 심자. 🌱"**  
@@ -18,7 +18,7 @@
 
 | 🏆 오늘의 커밋 왕 (TOP CONTRIBUTOR) |
 | :--- |
-| 👑 **[@Yelli915](https://github.com/Yelli915)** · **17 Commits** |
+| 👑 **[@Yelli915](https://github.com/Yelli915)** · **18 Commits** |
 
 <br>
 
@@ -26,9 +26,9 @@
 
 | 순위 | 상태 | 멤버 | 커밋 수 | 코드 변화량 (+/-) | 달성도 |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| **🥇 1st** | 🔥 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `17개` | `+6111` / `-3136` | `████████████████████` |
-| **🥈 2nd** | 🔥 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `12개` | `+366` / `-71` | `██████████████░░░░░░` |
-| **🥉 3rd** | 🔥 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `12개` | `+931` / `-104` | `██████████████░░░░░░` |
+| **🥇 1st** | 🔥 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `18개` | `+6332` / `-3365` | `████████████████████` |
+| **🥈 2nd** | 🔥 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `16개` | `+1340` / `-447` | `█████████████████░░░` |
+| **🥉 3rd** | 🔥 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `14개` | `+408` / `-83` | `███████████████░░░░░` |
 | **4th** | 🌿 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `4개` | `+350` / `-56` | `████░░░░░░░░░░░░░░░░` |
 | **5th** | 🌿 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `4개` | `+1270` / `-336` | `████░░░░░░░░░░░░░░░░` |
 | **6th** | 🌑 | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
@@ -42,8 +42,8 @@
 | 멤버 | 🔥 연속 1등 | 🏆 최장 연속 잔디 스트릭 |
 | :--- | :---: | :---: |
 | **[@Yelli915](https://github.com/Yelli915)** | `🔥 1일` | `🏆 1일` |
-| **[@1nyeonart](https://github.com/1nyeonart)** | `-` | `🏆 1일` |
 | **[@youjin09222](https://github.com/youjin09222)** | `-` | `🏆 1일` |
+| **[@1nyeonart](https://github.com/1nyeonart)** | `-` | `🏆 1일` |
 | **[@oojoyhh](https://github.com/oojoyhh)** | `-` | `🏆 1일` |
 | **[@Smorgg](https://github.com/Smorgg)** | `-` | `🏆 1일` |
 | **[@bmh7190](https://github.com/bmh7190)** | `-` | `🏆 0일` |
