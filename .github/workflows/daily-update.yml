@@ -41,5 +41,18 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update daily commit dashboard"
-          git pull --rebase origin main
-          git push origin main
+
+          # 원격에 새 커밋이 있으면 rebase. README는 봇이 재생성하므로 봇 버전(--theirs) 유지
+          for i in 1 2 3; do
+            if ! git pull --rebase origin main; then
+              git checkout --theirs -- README.md dashboard_state.json
+              git add README.md dashboard_state.json
+              GIT_EDITOR=true git rebase --continue
+            fi
+            if git push origin main; then
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "Failed to push after retries"
+          exit 1
