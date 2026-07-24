@@ -1,0 +1,65 @@
+{
+  "last_run_date": "2026-07-24",
+  "members": {
+    "Yelli915": {
+      "top_streak": 1,
+      "grass_streak": 1,
+      "last_success": {
+        "commits": 17,
+        "additions": 6111,
+        "deletions": 3136,
+        "is_estimate": false
+      }
+    },
+    "1nyeonart": {
+      "top_streak": 0,
+      "grass_streak": 1,
+      "last_success": {
+        "commits": 12,
+        "additions": 366,
+        "deletions": 71,
+        "is_estimate": false
+      }
+    },
+    "youjin09222": {
+      "top_streak": 0,
+      "grass_streak": 1,
+      "last_success": {
+        "commits": 12,
+        "additions": 931,
+        "deletions": 104,
+        "is_estimate": false
+      }
+    },
+    "oojoyhh": {
+      "top_streak": 0,
+      "grass_streak": 1,
+      "last_success": {
+        "commits": 4,
+        "additions": 350,
+        "deletions": 56,
+        "is_estimate": false
+      }
+    },
+    "Smorgg": {
+      "top_streak": 0,
+      "grass_streak": 1,
+      "last_success": {
+        "commits": 4,
+        "additions": 1270,
+        "deletions": 336,
+        "is_estimate": false
+      }
+    },
+    "bmh7190": {
+      "top_streak": 0,
+      "grass_streak": 0,
+      "last_success": {
+        "commits": 0,
+        "additions": 0,
+        "deletions": 0,
+        "is_estimate": false
+      }
+    }
+  }
+}
