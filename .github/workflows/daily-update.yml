@@ -36,5 +36,10 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          # 푸시하기 전에 최신 커밋을 rebase로 당겨온 뒤 안전하게 push
-          git diff --quiet && git diff --staged --quiet || (git pull --rebase origin main && git push origin main)
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update daily commit dashboard"
+          git pull --rebase origin main
+          git push origin main
