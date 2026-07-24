@@ -8,8 +8,6 @@ on:
 jobs:
   update-dashboard:
     runs-on: ubuntu-latest
-    
-    # ⬇️ 아래 permissions 설정을 추가하면 UI에서 선택하지 못해도 권한이 부여됩니다!
     permissions:
       contents: write
 
@@ -38,4 +36,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: 📊 Daily Grass Dashboard 실시간 업데이트" && git push)
+          # 푸시하기 전에 최신 커밋을 rebase로 당겨온 뒤 안전하게 push
+          git diff --quiet && git diff --staged --quiet || (git pull --rebase origin main && git push origin main)
