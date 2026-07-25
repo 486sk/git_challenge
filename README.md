@@ -3,7 +3,7 @@
 # 📊 1일 1커밋 챌린지 대시보드
 ### ⚡ DAILY GRASS DASHBOARD
 
-![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--07--25_16:58_KST-success?style=for-the-badge&logo=github)
+![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--07--25_18:51_KST-success?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/CHALLENGE-IN_PROGRESS-orange?style=for-the-badge&logo=target)
 
 > **"오늘 잔디, 오늘 심자. 🌱"**  
