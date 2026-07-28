@@ -3,7 +3,7 @@
 # 📊 1일 1커밋 챌린지 대시보드
 ### ⚡ DAILY GRASS DASHBOARD
 
-![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--07--28_17:24_KST-success?style=for-the-badge&logo=github)
+![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--07--28_20:12_KST-success?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/CHALLENGE-IN_PROGRESS-orange?style=for-the-badge&logo=target)
 
 > **"오늘 잔디, 오늘 심자. 🌱"**  
@@ -28,7 +28,7 @@
 | :---: | :---: | :--- | :---: | :---: | :--- |
 | **🥇 1st** | 🔥 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `18개` | `+2417` / `-1074` | `████████████████████` |
 | **🥈 2nd** | 🌿 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `3개` | `+3602` / `-3765` | `███░░░░░░░░░░░░░░░░░` |
-| **🥉 3rd** | 🌿 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `1개` | `+200` / `-0` | `█░░░░░░░░░░░░░░░░░░░` |
+| **🥉 3rd** | 🌿 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `2개` | `+1823` / `-193` | `██░░░░░░░░░░░░░░░░░░` |
 | **4th** | 🌑 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
 | **5th** | 🌑 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
 | **6th** | 🌑 | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
