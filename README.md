@@ -3,7 +3,7 @@
 # 📊 1일 1커밋 챌린지 대시보드
 ### ⚡ DAILY GRASS DASHBOARD
 
-![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--07--31_09:10_KST-success?style=for-the-badge&logo=github)
+![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--07--31_13:18_KST-success?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/CHALLENGE-IN_PROGRESS-orange?style=for-the-badge&logo=target)
 
 > **"오늘 잔디, 오늘 심자. 🌱"**  
@@ -18,7 +18,7 @@
 
 | 🏆 오늘의 커밋 왕 (TOP CONTRIBUTOR) |
 | :--- |
-| 👑 **[@Smorgg](https://github.com/Smorgg)** · **2 Commits** |
+| 👑 **[@Yelli915](https://github.com/Yelli915)** · **4 Commits** |
 
 <br>
 
@@ -26,8 +26,8 @@
 
 | 순위 | 상태 | 멤버 | 커밋 수 | 코드 변화량 (+/-) | 달성도 |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| **🥇 1st** | 🌿 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `2개` | `+2384` / `-0` | `████████████████████` |
-| **🥈 2nd** | 🌿 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `1개` | `+785` / `-124` | `██████████░░░░░░░░░░` |
+| **🥇 1st** | 🌿 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `4개` | `+14309` / `-6060` | `████████████████████` |
+| **🥈 2nd** | 🌿 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `2개` | `+2384` / `-0` | `██████████░░░░░░░░░░` |
 | **🥉 3rd** | 🌑 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
 | **4th** | 🌑 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
 | **5th** | 🌑 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
@@ -41,8 +41,8 @@
 
 | 멤버 | 🔥 연속 1등 | 🏆 최장 연속 잔디 스트릭 |
 | :--- | :---: | :---: |
-| **[@Smorgg](https://github.com/Smorgg)** | `-` | `🏆 0일` |
 | **[@Yelli915](https://github.com/Yelli915)** | `🔥 1일` | `🏆 1일` |
+| **[@Smorgg](https://github.com/Smorgg)** | `-` | `🏆 0일` |
 | **[@oojoyhh](https://github.com/oojoyhh)** | `-` | `🏆 0일` |
 | **[@1nyeonart](https://github.com/1nyeonart)** | `-` | `🏆 0일` |
 | **[@youjin09222](https://github.com/youjin09222)** | `-` | `🏆 0일` |
