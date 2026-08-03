@@ -3,7 +3,7 @@
 # 📊 1일 1커밋 챌린지 대시보드
 ### ⚡ DAILY GRASS DASHBOARD
 
-![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--08--03_19:37_KST-success?style=for-the-badge&logo=github)
+![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--08--03_22:36_KST-success?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/CHALLENGE-IN_PROGRESS-orange?style=for-the-badge&logo=target)
 
 > **"오늘 잔디, 오늘 심자. 🌱"**  
@@ -27,8 +27,8 @@
 | 순위 | 상태 | 멤버 | 커밋 수 | 코드 변화량 (+/-) | 달성도 |
 | :---: | :---: | :--- | :---: | :---: | :--- |
 | **🥇 1st** | 🔥 | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `11개` | `+933` / `-66` | `████████████████████` |
-| **🥈 2nd** | 🌿 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `4개` | `+5177` / `-9` | `███████░░░░░░░░░░░░░` |
-| **🥉 3rd** | 🌿 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `4개` | `+1153` / `-163` | `███████░░░░░░░░░░░░░` |
+| **🥈 2nd** | 🔥 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `5개` | `+1184` / `-171` | `█████████░░░░░░░░░░░` |
+| **🥉 3rd** | 🌿 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `4개` | `+5177` / `-9` | `███████░░░░░░░░░░░░░` |
 | **4th** | 🌿 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `3개` | `+5919` / `-110` | `█████░░░░░░░░░░░░░░░` |
 | **5th** | 🌿 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `2개` | `+650` / `-5` | `███░░░░░░░░░░░░░░░░░` |
 | **6th** | 🌑 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
@@ -42,8 +42,8 @@
 | 멤버 | 🔥 연속 1등 | 🏆 최장 연속 잔디 스트릭 |
 | :--- | :---: | :---: |
 | **[@bmh7190](https://github.com/bmh7190)** | `-` | `🏆 0일` |
-| **[@1nyeonart](https://github.com/1nyeonart)** | `-` | `🏆 0일` |
 | **[@Smorgg](https://github.com/Smorgg)** | `-` | `🏆 0일` |
+| **[@1nyeonart](https://github.com/1nyeonart)** | `-` | `🏆 0일` |
 | **[@oojoyhh](https://github.com/oojoyhh)** | `-` | `🏆 0일` |
 | **[@Yelli915](https://github.com/Yelli915)** | `-` | `🏆 0일` |
 | **[@youjin09222](https://github.com/youjin09222)** | `-` | `🏆 0일` |
