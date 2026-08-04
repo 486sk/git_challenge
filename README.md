@@ -3,7 +3,7 @@
 # 📊 1일 1커밋 챌린지 대시보드
 ### ⚡ DAILY GRASS DASHBOARD
 
-![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--08--04_19:31_KST-success?style=for-the-badge&logo=github)
+![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--08--04_21:56_KST-success?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/CHALLENGE-IN_PROGRESS-orange?style=for-the-badge&logo=target)
 
 > **"오늘 잔디, 오늘 심자. 🌱"**  
@@ -29,7 +29,7 @@
 | **🥇 1st** | 🔥 | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `16개` | `+2028` / `-399` | `████████████████████` |
 | **🥈 2nd** | 🔥 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `9개` | `+4939` / `-57` | `███████████░░░░░░░░░` |
 | **🥉 3rd** | 🔥 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `7개` | `+10183` / `-4827` | `████████░░░░░░░░░░░░` |
-| **4th** | 🌿 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `4개` | `+4931` / `-2011` | `█████░░░░░░░░░░░░░░░` |
+| **4th** | 🔥 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `6개` | `+6246` / `-3177` | `███████░░░░░░░░░░░░░` |
 | **5th** | 🌿 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `1개` | `+3472` / `-0` | `█░░░░░░░░░░░░░░░░░░░` |
 | **6th** | 🌑 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
 <!-- RANKING:END -->
