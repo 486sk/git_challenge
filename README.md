@@ -3,7 +3,7 @@
 # 📊 1일 1커밋 챌린지 대시보드
 ### ⚡ DAILY GRASS DASHBOARD
 
-![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--08--05_20:54_KST-success?style=for-the-badge&logo=github)
+![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--08--05_22:54_KST-success?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/CHALLENGE-IN_PROGRESS-orange?style=for-the-badge&logo=target)
 
 > **"오늘 잔디, 오늘 심자. 🌱"**  
@@ -18,7 +18,7 @@
 
 | 🏆 오늘의 커밋 왕 (TOP CONTRIBUTOR) |
 | :--- |
-| 👑 **[@youjin09222](https://github.com/youjin09222)** · **23 Commits** |
+| 👑 **[@youjin09222](https://github.com/youjin09222)** · **30 Commits** |
 
 <br>
 
@@ -26,12 +26,12 @@
 
 | 순위 | 상태 | 멤버 | 커밋 수 | 코드 변화량 (+/-) | 달성도 |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| **🥇 1st** | 🔥 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `23개` | `+12118` / `-494` | `████████████████████` |
-| **🥈 2nd** | 🔥 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `15개` | `+3850` / `-873` | `█████████████░░░░░░░` |
-| **🥉 3rd** | 🔥 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `11개` | `+9738` / `-4283` | `█████████░░░░░░░░░░░` |
-| **4th** | 🔥 | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `10개` | `+648` / `-69` | `████████░░░░░░░░░░░░` |
-| **5th** | 🔥 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `6개` | `+9946` / `-3244` | `█████░░░░░░░░░░░░░░░` |
-| **6th** | 🔥 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `5개` | `+1498283` / `-417` | `████░░░░░░░░░░░░░░░░` |
+| **🥇 1st** | 🔥 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `30개` | `+12810` / `-908` | `████████████████████` |
+| **🥈 2nd** | 🔥 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `15개` | `+3850` / `-873` | `██████████░░░░░░░░░░` |
+| **🥉 3rd** | 🔥 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `11개` | `+9738` / `-4283` | `███████░░░░░░░░░░░░░` |
+| **4th** | 🔥 | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `10개` | `+648` / `-69` | `██████░░░░░░░░░░░░░░` |
+| **5th** | 🔥 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `6개` | `+9946` / `-3244` | `████░░░░░░░░░░░░░░░░` |
+| **6th** | 🔥 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `5개` | `+1498283` / `-417` | `███░░░░░░░░░░░░░░░░░` |
 <!-- RANKING:END -->
 
 ---
