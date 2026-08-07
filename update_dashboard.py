@@ -250,6 +250,9 @@ def update_streaks(state, stats, today_str, top_user):
     상태 파일을 오늘 결과로 갱신하고, 각 멤버의 (top_streak, grass_streak)를 반환.
     같은 날 재실행(cron이 여러 번 도는 경우) 시 스트릭이 중복 증가하지 않도록
     last_run_date로 '이미 오늘 처리했는지' 확인한다.
+
+    API 조회 실패 멤버의 commits/additions/deletions는 이미 호출자(update_readme)가
+    직전 성공 데이터로 폴백을 적용해 두었으므로, 여기서는 스트릭만 건드리지 않고 넘어간다.
     """
     already_ran_today = state.get("last_run_date") == today_str
     members_state = state.setdefault("members", {})
@@ -259,14 +262,7 @@ def update_streaks(state, stats, today_str, top_user):
         uname = user["username"]
         m = members_state.setdefault(uname, {"top_streak": 0, "grass_streak": 0, "last_success": None})
 
-        # API 조회 실패면 직전 성공 데이터로 폴백, 스트릭은 변경하지 않음
         if user.get("fetch_failed"):
-            fallback = m.get("last_success")
-            if fallback:
-                user["commits"] = fallback["commits"]
-                user["additions"] = fallback["additions"]
-                user["deletions"] = fallback["deletions"]
-                user["is_estimate"] = fallback.get("is_estimate", True)
             result[uname] = {"top_streak": m["top_streak"], "grass_streak": m["grass_streak"]}
             continue
 
@@ -303,17 +299,22 @@ def update_readme():
     today_str = now.strftime("%Y-%m-%d")
 
     state = load_state()
+    members_state = state.setdefault("members", {})
 
     stats = []
-    max_commits = 0
     any_failed = False
 
     for m in MEMBERS:
         data = fetch_member_stats(m["username"])
         if data["fetch_failed"]:
             any_failed = True
-        if data["commits"] > max_commits:
-            max_commits = data["commits"]
+            # 정렬/순위 산정 전에 폴백을 적용해야 순위와 표시값이 어긋나지 않는다.
+            fallback = members_state.get(m["username"], {}).get("last_success")
+            if fallback:
+                data["commits"] = fallback["commits"]
+                data["additions"] = fallback["additions"]
+                data["deletions"] = fallback["deletions"]
+                data["is_estimate"] = fallback.get("is_estimate", True)
 
         stats.append({
             "name": m["name"],
@@ -325,7 +326,9 @@ def update_readme():
             "fetch_failed": data["fetch_failed"],
         })
 
-    # 커밋 수 기준 내림차순 정렬 (조회 실패자는 정렬에 영향 없도록 그대로 두되 순위 하단 배치는 안 함 - 값 그대로 사용)
+    max_commits = max((u["commits"] for u in stats), default=0)
+
+    # 커밋 수 기준 내림차순 정렬 (폴백 적용이 끝난 값 기준이므로 순위와 표시값이 일치한다)
     stats.sort(key=lambda x: x["commits"], reverse=True)
 
     top_user = stats[0] if stats and stats[0]["commits"] > 0 and not stats[0]["fetch_failed"] else None
