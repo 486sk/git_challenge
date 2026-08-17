@@ -3,7 +3,7 @@
 # 📊 1일 1커밋 챌린지 대시보드
 ### ⚡ DAILY GRASS DASHBOARD
 
-![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--08--18_01:20_KST-success?style=for-the-badge&logo=github)
+![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--08--18_02:21_KST-success?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/CHALLENGE-IN_PROGRESS-orange?style=for-the-badge&logo=target)
 
 > **"오늘 잔디, 오늘 심자. 🌱"**  
@@ -20,6 +20,8 @@
 | :--- |
 | 🌿 아직 오늘의 첫 잔디를 기다리고 있습니다! |
 
+> ⚠️ 일부 멤버의 데이터를 가져오지 못해 마지막으로 성공한 값을 표시하고 있습니다.
+
 <br>
 
 ### 📈 오늘의 순위표 (매시간 갱신)
@@ -31,7 +33,7 @@
 | **🥉 3rd** | 🌑 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
 | **4th** | 🌑 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
 | **5th** | 🌑 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
-| **6th** | 🌑 | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
+| **6th** | ⚠️ | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
 <!-- RANKING:END -->
 
 ---
