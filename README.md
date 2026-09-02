@@ -3,7 +3,7 @@
 # 📊 1일 1커밋 챌린지 대시보드
 ### ⚡ DAILY GRASS DASHBOARD
 
-![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--09--02_14:21_KST-success?style=for-the-badge&logo=github)
+![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--09--02_19:25_KST-success?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/CHALLENGE-IN_PROGRESS-orange?style=for-the-badge&logo=target)
 
 > **"오늘 잔디, 오늘 심자. 🌱"**  
@@ -27,7 +27,7 @@
 | 순위 | 상태 | 멤버 | 커밋 수 | 코드 변화량 (+/-) | 달성도 |
 | :---: | :---: | :--- | :---: | :---: | :--- |
 | **🥇 1st** | 🔥 | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `8개` | `+606` / `-782` | `████████████████████` |
-| **🥈 2nd** | 🌿 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `2개` | `+2059` / `-85` | `█████░░░░░░░░░░░░░░░` |
+| **🥈 2nd** | 🔥 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `5개` | `+16411` / `-1247` | `████████████░░░░░░░░` |
 | **🥉 3rd** | 🌿 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `1개` | `+177` / `-0` | `██░░░░░░░░░░░░░░░░░░` |
 | **4th** | 🌑 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
 | **5th** | 🌑 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
