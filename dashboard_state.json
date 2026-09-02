@@ -1,5 +1,5 @@
 {
-  "last_run_date": "2026-09-02",
+  "last_run_date": "2026-09-03",
   "members": {
     "Yelli915": {
       "top_streak": 0,
@@ -32,11 +32,11 @@
       }
     },
     "oojoyhh": {
-      "top_streak": 1,
-      "grass_streak": 1,
+      "top_streak": 0,
+      "grass_streak": 0,
       "last_success": {
-        "commits": 1,
-        "additions": 177,
+        "commits": 0,
+        "additions": 0,
         "deletions": 0,
         "is_estimate": false
       }
