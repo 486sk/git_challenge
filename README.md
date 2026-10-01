@@ -3,7 +3,7 @@
 # 📊 1일 1커밋 챌린지 대시보드
 ### ⚡ DAILY GRASS DASHBOARD
 
-![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--10--01_17:10_KST-success?style=for-the-badge&logo=github)
+![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--10--02_00:54_KST-success?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/CHALLENGE-IN_PROGRESS-orange?style=for-the-badge&logo=target)
 
 > **"오늘 잔디, 오늘 심자. 🌱"**  
@@ -18,7 +18,7 @@
 
 | 🏆 오늘의 커밋 왕 (TOP CONTRIBUTOR) |
 | :--- |
-| 👑 **[@youjin09222](https://github.com/youjin09222)** · **9 Commits** |
+| 🌿 아직 오늘의 첫 잔디를 기다리고 있습니다! |
 
 <br>
 
@@ -26,12 +26,12 @@
 
 | 순위 | 상태 | 멤버 | 커밋 수 | 코드 변화량 (+/-) | 달성도 |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| **🥇 1st** | 🔥 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `9개` | `+1144` / `-150` | `████████████████████` |
-| **🥈 2nd** | 🔥 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `5개` | `+1656` / `-72` | `███████████░░░░░░░░░` |
-| **🥉 3rd** | 🌿 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `3개` | `+9226` / `-388` | `██████░░░░░░░░░░░░░░` |
-| **4th** | 🌿 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `2개` | `+97` / `-7` | `████░░░░░░░░░░░░░░░░` |
-| **5th** | 🌑 | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
-| **5th** | 🌑 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
+| **🥇 1st** | 🌑 | **[@1nyeonart](https://github.com/1nyeonart)** (인수연) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
+| **🥇 1st** | 🌑 | **[@bmh7190](https://github.com/bmh7190)** (배민혁) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
+| **🥇 1st** | 🌑 | **[@oojoyhh](https://github.com/oojoyhh)** (김효주) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
+| **🥇 1st** | 🌑 | **[@Smorgg](https://github.com/Smorgg)** (한석휘) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
+| **🥇 1st** | 🌑 | **[@Yelli915](https://github.com/Yelli915)** (권예리) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
+| **🥇 1st** | 🌑 | **[@youjin09222](https://github.com/youjin09222)** (박유진) | `0개` | `+0` / `-0` | `░░░░░░░░░░░░░░░░░░░░` |
 <!-- RANKING:END -->
 
 ---
@@ -41,12 +41,12 @@
 
 | 멤버 | 🔥 연속 1등 | 🌿 현재 연속 잔디 | 🏆 최장 연속 잔디 |
 | :--- | :---: | :---: | :---: |
-| **[@youjin09222](https://github.com/youjin09222)** | `🔥 1일` | `🌿 1일` | `🏆 1일` |
 | **[@1nyeonart](https://github.com/1nyeonart)** | `-` | `🌿 1일` | `🏆 1일` |
-| **[@Yelli915](https://github.com/Yelli915)** | `-` | `🌿 1일` | `🏆 1일` |
+| **[@bmh7190](https://github.com/bmh7190)** | `-` | `🌿 1일` | `🏆 1일` |
 | **[@oojoyhh](https://github.com/oojoyhh)** | `-` | `🌿 1일` | `🏆 1일` |
-| **[@bmh7190](https://github.com/bmh7190)** | `-` | `-` | `-` |
 | **[@Smorgg](https://github.com/Smorgg)** | `-` | `-` | `-` |
+| **[@Yelli915](https://github.com/Yelli915)** | `-` | `🌿 1일` | `🏆 1일` |
+| **[@youjin09222](https://github.com/youjin09222)** | `🔥 1일` | `🌿 1일` | `🏆 1일` |
 <!-- RECORD:END -->
 
 ---
