@@ -6,13 +6,13 @@
       "top_base": 0,
       "max_grass": 0,
       "day": "2026-10-01",
-      "day_commits": 1,
+      "day_commits": 3,
       "day_top": false,
       "last_success": {
         "date": "2026-10-01",
-        "commits": 1,
-        "additions": 345,
-        "deletions": 148,
+        "commits": 3,
+        "additions": 9226,
+        "deletions": 388,
         "is_estimate": false,
         "is_partial": false
       }
@@ -22,13 +22,13 @@
       "top_base": 0,
       "max_grass": 0,
       "day": "2026-10-01",
-      "day_commits": 0,
+      "day_commits": 5,
       "day_top": false,
       "last_success": {
         "date": "2026-10-01",
-        "commits": 0,
-        "additions": 0,
-        "deletions": 0,
+        "commits": 5,
+        "additions": 1656,
+        "deletions": 72,
         "is_estimate": false,
         "is_partial": false
       }
@@ -38,13 +38,13 @@
       "top_base": 0,
       "max_grass": 0,
       "day": "2026-10-01",
-      "day_commits": 0,
-      "day_top": false,
+      "day_commits": 9,
+      "day_top": true,
       "last_success": {
         "date": "2026-10-01",
-        "commits": 0,
-        "additions": 0,
-        "deletions": 0,
+        "commits": 9,
+        "additions": 1144,
+        "deletions": 150,
         "is_estimate": false,
         "is_partial": false
       }
@@ -55,7 +55,7 @@
       "max_grass": 0,
       "day": "2026-10-01",
       "day_commits": 2,
-      "day_top": true,
+      "day_top": false,
       "last_success": {
         "date": "2026-10-01",
         "commits": 2,
