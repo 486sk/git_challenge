@@ -2,63 +2,99 @@
   "last_run_date": "2026-10-01",
   "members": {
     "Yelli915": {
-      "top_streak": 0,
-      "grass_streak": 0,
+      "grass_base": 0,
+      "top_base": 0,
+      "max_grass": 0,
+      "day": "2026-10-01",
+      "day_commits": 1,
+      "day_top": false,
       "last_success": {
-        "commits": 0,
-        "additions": 0,
-        "deletions": 0,
-        "is_estimate": false
+        "date": "2026-10-01",
+        "commits": 1,
+        "additions": 345,
+        "deletions": 148,
+        "is_estimate": false,
+        "is_partial": false
       }
     },
     "1nyeonart": {
-      "top_streak": 0,
-      "grass_streak": 0,
+      "grass_base": 0,
+      "top_base": 0,
+      "max_grass": 0,
+      "day": "2026-10-01",
+      "day_commits": 0,
+      "day_top": false,
       "last_success": {
+        "date": "2026-10-01",
         "commits": 0,
         "additions": 0,
         "deletions": 0,
-        "is_estimate": false
+        "is_estimate": false,
+        "is_partial": false
       }
     },
     "youjin09222": {
-      "top_streak": 0,
-      "grass_streak": 0,
+      "grass_base": 0,
+      "top_base": 0,
+      "max_grass": 0,
+      "day": "2026-10-01",
+      "day_commits": 0,
+      "day_top": false,
       "last_success": {
+        "date": "2026-10-01",
         "commits": 0,
         "additions": 0,
         "deletions": 0,
-        "is_estimate": false
+        "is_estimate": false,
+        "is_partial": false
       }
     },
     "oojoyhh": {
-      "top_streak": 0,
-      "grass_streak": 0,
+      "grass_base": 0,
+      "top_base": 0,
+      "max_grass": 0,
+      "day": "2026-10-01",
+      "day_commits": 2,
+      "day_top": true,
       "last_success": {
-        "commits": 0,
-        "additions": 0,
-        "deletions": 0,
-        "is_estimate": false
+        "date": "2026-10-01",
+        "commits": 2,
+        "additions": 97,
+        "deletions": 7,
+        "is_estimate": false,
+        "is_partial": false
       }
     },
     "Smorgg": {
-      "top_streak": 0,
-      "grass_streak": 0,
+      "grass_base": 0,
+      "top_base": 0,
+      "max_grass": 0,
+      "day": "2026-10-01",
+      "day_commits": 0,
+      "day_top": false,
       "last_success": {
+        "date": "2026-10-01",
         "commits": 0,
         "additions": 0,
         "deletions": 0,
-        "is_estimate": false
+        "is_estimate": false,
+        "is_partial": false
       }
     },
     "bmh7190": {
-      "top_streak": 0,
-      "grass_streak": 0,
+      "grass_base": 0,
+      "top_base": 0,
+      "max_grass": 0,
+      "day": "2026-10-01",
+      "day_commits": 0,
+      "day_top": false,
       "last_success": {
+        "date": "2026-10-01",
         "commits": 0,
         "additions": 0,
         "deletions": 0,
-        "is_estimate": false
+        "is_estimate": false,
+        "is_partial": false
       }
     }
   }
