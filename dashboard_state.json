@@ -1,31 +1,31 @@
 {
-  "last_run_date": "2026-10-02",
+  "last_run_date": "2026-10-03",
   "members": {
     "Yelli915": {
-      "grass_base": 1,
-      "top_base": 0,
-      "max_grass": 1,
-      "day": "2026-10-02",
-      "day_commits": 2,
-      "day_top": true,
+      "grass_base": 2,
+      "top_base": 1,
+      "max_grass": 2,
+      "day": "2026-10-03",
+      "day_commits": 0,
+      "day_top": false,
       "last_success": {
-        "date": "2026-10-02",
-        "commits": 2,
-        "additions": 180,
-        "deletions": 1247,
+        "date": "2026-10-03",
+        "commits": 0,
+        "additions": 0,
+        "deletions": 0,
         "is_estimate": false,
         "is_partial": false
       }
     },
     "1nyeonart": {
-      "grass_base": 1,
+      "grass_base": 0,
       "top_base": 0,
       "max_grass": 1,
-      "day": "2026-10-02",
+      "day": "2026-10-03",
       "day_commits": 0,
       "day_top": false,
       "last_success": {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "commits": 0,
         "additions": 0,
         "deletions": 0,
@@ -34,14 +34,14 @@
       }
     },
     "youjin09222": {
-      "grass_base": 1,
-      "top_base": 1,
+      "grass_base": 0,
+      "top_base": 0,
       "max_grass": 1,
-      "day": "2026-10-02",
+      "day": "2026-10-03",
       "day_commits": 0,
       "day_top": false,
       "last_success": {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "commits": 0,
         "additions": 0,
         "deletions": 0,
@@ -50,14 +50,14 @@
       }
     },
     "oojoyhh": {
-      "grass_base": 1,
+      "grass_base": 2,
       "top_base": 0,
-      "max_grass": 1,
-      "day": "2026-10-02",
+      "max_grass": 2,
+      "day": "2026-10-03",
       "day_commits": 0,
       "day_top": false,
       "last_success": {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "commits": 0,
         "additions": 0,
         "deletions": 0,
@@ -69,11 +69,11 @@
       "grass_base": 0,
       "top_base": 0,
       "max_grass": 0,
-      "day": "2026-10-02",
+      "day": "2026-10-03",
       "day_commits": 0,
       "day_top": false,
       "last_success": {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "commits": 0,
         "additions": 0,
         "deletions": 0,
@@ -82,17 +82,17 @@
       }
     },
     "bmh7190": {
-      "grass_base": 1,
-      "top_base": 0,
-      "max_grass": 1,
-      "day": "2026-10-02",
-      "day_commits": 2,
-      "day_top": true,
+      "grass_base": 2,
+      "top_base": 1,
+      "max_grass": 2,
+      "day": "2026-10-03",
+      "day_commits": 0,
+      "day_top": false,
       "last_success": {
-        "date": "2026-10-02",
-        "commits": 2,
-        "additions": 660,
-        "deletions": 66,
+        "date": "2026-10-03",
+        "commits": 0,
+        "additions": 0,
+        "deletions": 0,
         "is_estimate": false,
         "is_partial": false
       }
