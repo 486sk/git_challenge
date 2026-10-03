@@ -3,7 +3,7 @@
 # 📊 1일 1커밋 챌린지 대시보드
 ### ⚡ DAILY GRASS DASHBOARD
 
-![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--10--03_21:57_KST-success?style=for-the-badge&logo=github)
+![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--10--04_02:00_KST-success?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/CHALLENGE-IN_PROGRESS-orange?style=for-the-badge&logo=target)
 
 > **"오늘 잔디, 오늘 심자. 🌱"**  
@@ -42,10 +42,10 @@
 | 멤버 | 🔥 연속 1등 | 🌿 현재 연속 잔디 | 🏆 최장 연속 잔디 |
 | :--- | :---: | :---: | :---: |
 | **[@1nyeonart](https://github.com/1nyeonart)** | `-` | `-` | `🏆 1일` |
-| **[@bmh7190](https://github.com/bmh7190)** | `🔥 1일` | `🌿 2일` | `🏆 2일` |
-| **[@oojoyhh](https://github.com/oojoyhh)** | `-` | `🌿 2일` | `🏆 2일` |
+| **[@bmh7190](https://github.com/bmh7190)** | `-` | `-` | `🏆 2일` |
+| **[@oojoyhh](https://github.com/oojoyhh)** | `-` | `-` | `🏆 2일` |
 | **[@Smorgg](https://github.com/Smorgg)** | `-` | `-` | `-` |
-| **[@Yelli915](https://github.com/Yelli915)** | `🔥 1일` | `🌿 2일` | `🏆 2일` |
+| **[@Yelli915](https://github.com/Yelli915)** | `-` | `-` | `🏆 2일` |
 | **[@youjin09222](https://github.com/youjin09222)** | `-` | `-` | `🏆 1일` |
 <!-- RECORD:END -->
 
