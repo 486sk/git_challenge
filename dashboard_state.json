@@ -6,15 +6,15 @@
       "top_base": 1,
       "max_grass": 2,
       "day": "2026-10-17",
-      "day_commits": 0,
-      "day_top": false,
+      "day_commits": 3,
+      "day_top": true,
       "last_success": {
         "date": "2026-10-17",
-        "commits": 0,
-        "additions": 0,
-        "deletions": 0,
+        "commits": 3,
+        "additions": 5368,
+        "deletions": 3582,
         "is_estimate": false,
-        "is_partial": false
+        "is_partial": true
       }
     },
     "1nyeonart": {
