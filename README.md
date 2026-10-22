@@ -3,7 +3,7 @@
 # 📊 1일 1커밋 챌린지 대시보드
 ### ⚡ DAILY GRASS DASHBOARD
 
-![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--10--22_19:59_KST-success?style=for-the-badge&logo=github)
+![Last Updated](https://img.shields.io/badge/LAST_UPDATE-2026--10--23_00:50_KST-success?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/CHALLENGE-IN_PROGRESS-orange?style=for-the-badge&logo=target)
 
 > **"오늘 잔디, 오늘 심자. 🌱"**  
@@ -45,7 +45,7 @@
 | **[@bmh7190](https://github.com/bmh7190)** | `-` | `-` | `🏆 2일` |
 | **[@oojoyhh](https://github.com/oojoyhh)** | `-` | `-` | `🏆 3일` |
 | **[@Smorgg](https://github.com/Smorgg)** | `-` | `-` | `-` |
-| **[@Yelli915](https://github.com/Yelli915)** | `🔥 3일` | `🌿 3일` | `🏆 3일` |
+| **[@Yelli915](https://github.com/Yelli915)** | `-` | `-` | `🏆 3일` |
 | **[@youjin09222](https://github.com/youjin09222)** | `-` | `-` | `🏆 2일` |
 <!-- RECORD:END -->
 
