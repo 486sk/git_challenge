@@ -6,13 +6,13 @@
       "top_base": 0,
       "max_grass": 3,
       "day": "2026-11-05",
-      "day_commits": 0,
-      "day_top": false,
+      "day_commits": 1,
+      "day_top": true,
       "last_success": {
         "date": "2026-11-05",
-        "commits": 0,
+        "commits": 1,
         "additions": 0,
-        "deletions": 0,
+        "deletions": 2,
         "is_estimate": false,
         "is_partial": false
       }
