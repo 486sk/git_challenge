@@ -86,12 +86,12 @@
       "top_base": 0,
       "max_grass": 2,
       "day": "2026-11-14",
-      "day_commits": 0,
-      "day_top": false,
+      "day_commits": 3,
+      "day_top": true,
       "last_success": {
         "date": "2026-11-14",
-        "commits": 0,
-        "additions": 0,
+        "commits": 3,
+        "additions": 122,
         "deletions": 0,
         "is_estimate": false,
         "is_partial": false
